@@ -1,8 +1,8 @@
 from openai import OpenAI
 import sys, time, random
 
-client = OpenAI(api_key="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")
-#this is the area where all of my responses and the computer stores will be remembered.
+client = OpenAI(api_key="")
+#this is the area where all responses will be remembered.
 conversation = []
 
 #small function I made to add a cooler typing animation for my text
